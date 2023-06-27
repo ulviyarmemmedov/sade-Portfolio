@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    text-align: center;
+    height: 100vh;
+    padding: 16rem 0;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+}
+.first h1{
+    font-size: 4rem;;
+}
+.first h3{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+.first a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: rgb(57, 57, 150);
+}
+.second{
+    text-align: center;
+    padding: 6rem 0;
+}
+.second h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+
+}
+.second p{
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+}
+.second .a2{
+    text-decoration: none;
+    color: #ffff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: #212529;
+
+}
+.third{
+    background-color: #1D809F;
+    text-align: center;
+    padding: 8rem 0;
+    overflow: hidden;
+}
+.text h3{
+    color: #ECB807;
+}
+.text h2{
+    font-size: 3rem;
+     color:#ffff;
+}
+.text{
+    margin-bottom: 40px;
+}
+.items {
+    text-align: center;
+}
+.items .box{
+    float: left;
+    margin: 50px;
+    text-align: center;
+}
+.items i{
+    background-color: #fff;
+    color:black;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 2rem;
+
+}
+.box h4 {
+    color: #fff;
+    margin-top: 20px;
+}
+.box p{
+    color: #fff;
+    margin-top: 20px; 
+}
+.dord{
+
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+     background-position: center;
+     background-size: cover;
+     padding: 18rem 0;
+     text-align: center;
+}
+.dord h2{
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+.dord a{
+    text-decoration: none;
+    color: #ffff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: rgb(57, 57, 150);
+}
+.bes{
+    background-color: #1D809F;
+    padding: 7rem 0;
+    text-align: center;
+    overflow: hidden;
+}
+.bes h2{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+}
+.bes .button1{
+    padding: 20px 40px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    margin-right: 30px;
+}
+.bes .button2{
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+.map{
+    overflow: hidden;
+}
+.son{
+    text-align: center;
+    padding: 7rem 0;
+}
+.imgs{
+      
+      margin: 0 auto;
+}
+.imgs .box{
+    float: left;
+    margin: 0 100px 0 200px;
+    font-size: 40px;
+    background-color: #1D809F;
+    padding: 30px;
+    border-radius: 50%;
+    color: #fff;
+}
+.son p{
+    margin-top: 90px;
+}
+
+.sekiller{
+        padding: 6rem 0;
+}
+
+.sekiller .img-box{
+    
+    width: 80%;
+    margin: auto;
+    height:700px;
+    
+}
+.img-box .boxs{
+    
+    width: 50%;
+    float: left;
+    position: relative;
+    transition: 0.6s;
+    
+}
+.img-box .boxs img{
+    width: 100%;
+}
+.boxs .box-text{
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+    z-index: 9999;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #1D809F;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+    
+}
+ .boxs:hover .overlay{
+     opacity:0.8 ;
+}
+.boxs img:hover {
+    transform: scale(0.9);
+}
+.img-box .boxs:hover{
+       transform: scale(.9);
+}
+.text2{
+    text-align: center;
+    margin: 2rem 0;
+}
+.text2 h3{
+    color: orange;
+    font-size: 2rem;
+}
+.text2 h2{
+    font-size: 3rem;
+
+}
